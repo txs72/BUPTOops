@@ -1,2 +1,2 @@
 # BUPTOops
-OOP Material in C++ for BUPT Students.
+OOP Material for BUPT Students.
