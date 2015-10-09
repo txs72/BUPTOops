@@ -1,0 +1,2 @@
+ int add(int, int);
+
