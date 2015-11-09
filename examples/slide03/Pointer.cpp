@@ -8,10 +8,12 @@ int main()
     char c = 'a';
     char* p1 = &c;
     cout << "c\'s address is: " << &p1 << endl;
-    cout << *p1 << endl;
+    cout << "p1's value is: " << *p1 << endl;
+    cout << "the size of p is: " << sizeof(p1) << endl;
     cout << endl;
 
-    // sizeof 与 strlen的区别
+    cout << "sizeof 与 strlen的区别" << endl;
+    cout << "----------------------" << endl;
     cout << "sizeof string \"test\" is: " << sizeof("test") << endl;
     cout << "string length of \"test\" is: " << strlen("test") << endl;
 
@@ -76,7 +78,12 @@ int main()
 
         address jd = { "Jim Dandy", 61, "South St", "New Providence", 
             {'N', 'J'}, 7974};
-        cout << jd.name << endl;
+        cout << "name: \t" << jd.name << endl;
+        cout << "number: \t" << jd.number << endl;
+        cout << "street: \t" << jd.street << endl;
+        cout << "town: \t" << jd.town << endl;
+        cout << "state: \t" << jd.state[0] << "." << jd.state[1] << endl;
+        cout << "zip: \t" << jd.zip << endl;
 
     }
 

@@ -4,11 +4,11 @@ using namespace std;
 
 int main()
 {
-    const char * str1 = "This is constent string";
-    const char * str2 = "This is constent string";
-    const char str3[] = "This is constent string";
-    const char str4[] = "This is constent string";
-    char * str5 = "This is constent string";
+    const char * str1 = "This is constant string";
+    const char * str2 = "This is constant string";
+    const char str3[] = "This is constant string";
+    const char str4[] = "This is constant string";
+    char * str5 = "This is constant string";
 
     cout << (str1 == str2) << endl;
     cout << (str3 == str4) << endl;
